@@ -2,6 +2,6 @@
 {
     public interface IJivoDelegate
     {
-        
+        void OnEvent(string name, string data);
     }
 }

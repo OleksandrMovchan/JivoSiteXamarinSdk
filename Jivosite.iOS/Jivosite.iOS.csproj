@@ -131,5 +131,17 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="html\bundle.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="html\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="html\index_en.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="html\index_ru.html" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
